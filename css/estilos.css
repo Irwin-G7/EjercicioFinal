@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: rubik, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #E4E4E4;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    background-color: #df6a30;
+    border-radius: 0 0 25px 25px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.bmenu{
+    padding-right: 35px;
+}
+
+a{
+    color: white; 
+    font-family: rubik, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-family: rubik, sans-serif;
+    font-weight: bold;
+    font-size: 45px;
+    color: #df6a30;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+p{
+    margin-left: 100px;
+    margin-bottom: 25px;
+    color: #020D2B;
+}
+.galeria{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+img.ilustracion01{
+    display: block;
+     width: 850px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 75px;
+    
+}
+.boton1, .boton2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 170px;
+    color: #020D2B;
+}
+.boton1 {
+    margin-left: 170px; 
+    margin-right: 537px; 
+}
+
+a.volver{
+    display: block;
+    color: white;
+    background-color: #df6a30;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+article.sobre{
+    width: 600px;
+    display: block;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+img.mifoto{
+    display: block;
+    width: 160px;
+    margin-top: 250px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2.sobre{
+    text-align: center;
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+p.sobre{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 150px;
+}
+#ilu, #pro, #foto{
+    content: "";
+    display: block;
+    height: 150px; 
+    margin-top: -150px; 
+}
+div.redes{
+    width: 60px;
+    height: 250px;
+    position: fixed;
+    top: 255px;
+    left: 0px;
+    border-radius: 13px;
+}
+li{
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+    font-family: rubik, sans-serif;
+    color: white;
+}
+footer{
+    background-color: #df6a30;
+    margin-top: 50px;
+}
